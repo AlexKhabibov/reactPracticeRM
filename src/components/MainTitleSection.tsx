@@ -1,4 +1,4 @@
-function ExpertSection() {
+function MainTitleSection() {
     return (
         <>
             <h1>НАШИ МЕДИА</h1>
@@ -7,4 +7,4 @@ function ExpertSection() {
     );
 }
 
-export default ExpertSection;
+export default MainTitleSection;
