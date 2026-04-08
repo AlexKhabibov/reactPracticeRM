@@ -1,11 +1,12 @@
+import '../styles/expertTitleSection.css'
+
 function ExpertTitleSection() {
     return (
         <>
-            <h1>Эксперты YeaHub</h1>
-            <p>Наши гуру делятся опытом в разных форматах. Смотрите разборы кейсов, участвуйте в стримах и перенимайте их подход к работе</p>
-            <div>
-
-
+            <div className="expert-section container">
+                <div className="expert-section__header">
+                    <h2 className="expert-section__title">Эксперты Yeahub</h2>
+                </div>
             </div>
         </>
     );

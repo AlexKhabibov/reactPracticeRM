@@ -1,0 +1,14 @@
+.main-title {
+    margin-top: 32px;
+}
+
+.main-title__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main-title__subtitle {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #666;
+}

@@ -1,3 +1,5 @@
+import '../styles/infoSection.css'
+
 function InfoSection() {
     return (
         <>

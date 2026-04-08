@@ -69,3 +69,31 @@ p {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
 }
+
+.btn {
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+/* Вход */
+.btn--ghost {
+    background: transparent;
+    border-color: #ddd;
+    border-color: #7b61ff;
+    color: #7b61ff;
+}
+
+
+/* Регистрация */
+.btn--primary {
+    background: #7b61ff;
+    color: #fff;
+}
+
+.btn--primary:hover {
+    opacity: 0.9;
+}

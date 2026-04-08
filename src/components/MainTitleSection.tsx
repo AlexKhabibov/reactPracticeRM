@@ -1,3 +1,5 @@
+import '../styles/mainTitleSection.css'
+
 function MainTitleSection() {
     return (
         <>

@@ -1,0 +1,12 @@
+.info {
+    margin-top: 24px;
+    padding: 16px;
+
+    background: #fff;
+    border-radius: 12px;
+}
+
+.info__text {
+    font-size: 14px;
+    color: #555;
+}

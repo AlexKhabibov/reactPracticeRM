@@ -1,20 +1,24 @@
+import '../styles/header.css'
+
 function Header() {
     return (
 
-        <nav style={{ display: 'flex', flexDirection: "row" }}>
-            <div>
-                <img src="" alt="" />
+        <header className="header">
+            <div className="container header__inner">
+                <div className="header__logo">Yeahub</div>
+
+                <nav className="header__nav">
+                    <a className="header__link">База вопросов</a>
+                    <a className="header__link">Тренажер</a>
+                    <a className="header__link">Материалы</a>
+                </nav>
+
+                <div className="header__actions">
+                    <button className="btn btn--ghost">Вход</button>
+                    <button className="btn btn--primary">Регистрация</button>
+                </div>
             </div>
-            <ul style={{ display: "flex", flexDirection: "row" }}>
-                <li>База вопросов</li>
-                <li>Тренажор</li>
-                <li>Материалы</li>
-            </ul>
-            <form action="submit" style={{ display: "flex", flexDirection: "row" }}>
-                <button>Вход</button>
-                <button>Регистрация</button>
-            </form>
-        </nav >
+        </header>
     );
 }
 

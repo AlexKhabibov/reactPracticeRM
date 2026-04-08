@@ -1,3 +1,5 @@
+import '../styles/tgSection.css'
+
 function TelegramChannelsInfoSection() {
     return (
         <>

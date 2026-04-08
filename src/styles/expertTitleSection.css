@@ -1,0 +1,14 @@
+.expert-section {
+    margin-top: 48px;
+}
+
+.expert-section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expert-section__title {
+    font-size: 20px;
+    font-weight: 600;
+}
