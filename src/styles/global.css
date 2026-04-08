@@ -19,22 +19,6 @@ body {
     padding: 0 16px;
 }
 
-/* Заголовки */
-h1, h2, h3 {
-    margin: 0;
-}
-
-h2 {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-/* Текст */
-p {
-    margin: 0;
-    line-height: 1.4;
-}
-
 /* Кнопки (как в макете) */
 .button {
     padding: 8px 16px;
@@ -49,11 +33,6 @@ p {
 .button:hover {
     background: #7b61ff;
     color: #fff;
-}
-
-/* Секции */
-.section {
-    margin-top: 48px;
 }
 
 /* Сетка экспертов */

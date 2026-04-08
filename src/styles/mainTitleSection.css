@@ -2,13 +2,19 @@
     margin-top: 32px;
 }
 
+/* заголовок */
 .main-title__title {
     font-size: 32px;
     font-weight: 700;
+    color: black;
+    margin: 0;
 }
 
+/* текст */
 .main-title__subtitle {
-    margin-top: 8px;
+    margin-top: 12px;
+    max-width: 600px;
     font-size: 16px;
     color: #666;
+    line-height: 1.5;
 }

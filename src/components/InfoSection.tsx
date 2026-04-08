@@ -2,9 +2,13 @@ import '../styles/infoSection.css'
 
 function InfoSection() {
     return (
-        <>
-            <p>30 минут в день на контент экспертов = +50% к вашим навыкам за год</p>
-        </>
+        <div className="info-banner container">
+            <div className="info-banner__card">
+                <p className="info-banner__line">
+                    30 минут в день на контент экспертов = <strong>+50%</strong> к вашим навыкам за год
+                </p>
+            </div>
+        </div>
     );
 }
 
