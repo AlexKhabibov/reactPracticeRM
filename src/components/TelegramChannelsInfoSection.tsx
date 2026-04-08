@@ -1,4 +1,4 @@
-function TelegramChanelsInfoSection() {
+function TelegramChannelsInfoSection() {
     return (
         <>
             <h1>Telegram-каналы</h1>
@@ -7,4 +7,4 @@ function TelegramChanelsInfoSection() {
     );
 }
 
-export default TelegramChanelsInfoSection;
+export default TelegramChannelsInfoSection;

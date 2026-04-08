@@ -1,4 +1,4 @@
-function TelegramChanelCard() {
+function TelegramChannelCard() {
     return (  
         <>
         TelegramChanelCard
@@ -6,4 +6,4 @@ function TelegramChanelCard() {
     );
 }
 
-export default TelegramChanelCard;
+export default TelegramChannelCard;

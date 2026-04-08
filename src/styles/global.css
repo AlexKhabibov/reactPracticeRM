@@ -1,0 +1,71 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #f5f5f7;
+    color: #1a1a1a;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Текст */
+p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Кнопки (как в макете) */
+.button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #7b61ff;
+    background: transparent;
+    color: #7b61ff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #7b61ff;
+    color: #fff;
+}
+
+/* Секции */
+.section {
+    margin-top: 48px;
+}
+
+/* Сетка экспертов */
+.expert-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+/* Сетка телеграм */
+.telegram-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
