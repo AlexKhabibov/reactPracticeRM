@@ -11,7 +11,7 @@ function ExpertCard({ expert }: Props) {
     return (
         <div className="expert-card">
             <img
-                src="/avatar.jpg"
+                src={expert.avatar}
                 alt="Денис"
                 className="expert-card__avatar"
             />
