@@ -2,6 +2,10 @@
     margin-top: 32px;
     background: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .main-title__title {

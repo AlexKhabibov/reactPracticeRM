@@ -83,4 +83,12 @@ export const tgChannels: TgChannelsType[] = [
     { id: 8, title: 'Phyton Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
     { id: 9, title: 'GoLang Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
     { id: 10, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 11, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 12, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 13, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 14, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 15, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 16, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 17, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
+    { id: 18, title: 'iOS Developer', description: 'Разборы сложного кода и карьерные советы', avatar: 'avatar.img' },
 ]
