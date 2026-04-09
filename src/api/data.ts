@@ -22,6 +22,13 @@ export const experts: ExpertType[] = [
         avatar: "https://i.pravatar.cc/150?img=1",
     },
     {
+        id: 2,
+        name: "Светлана",
+        role: "UI/UX designer",
+        description: "Учитесь у тех, кто уже решил ваши проблемы",
+        avatar: "https://i.pravatar.cc/150?img=1",
+    },
+    {
         id: 3,
         name: "Светлана",
         role: "UI/UX designer",

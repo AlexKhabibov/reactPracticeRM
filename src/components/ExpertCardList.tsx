@@ -1,6 +1,6 @@
 import { type ExpertType } from "../api/data";
 import ExpertCard from "./ExpertCard";
-import '../styles/expertCard.css'
+import '../styles/ExpertCardList.css'
 
 type Props = {
     experts: ExpertType[];

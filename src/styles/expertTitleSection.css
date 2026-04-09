@@ -2,13 +2,26 @@
     margin-top: 48px;
 }
 
+/* контейнер текста */
 .expert-section__header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
 
+/* заголовок */
 .expert-section__title {
-    font-size: 20px;
+    margin: 0;
+    font-size: 24px;
     font-weight: 600;
+}
+
+/* описание */
+.expert-section__description {
+    margin-top: 8px;
+
+    max-width: 600px;
+
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
 }
