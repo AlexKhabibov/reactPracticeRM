@@ -7,7 +7,7 @@ type Props = {
 
 function TelegramChannelCard({ channel }: Props) {
     return (
-        <div className="tg-card">
+        <div className="tg-card container">
             <div className="tg-card__header">
                 <img
                     src={channel.avatar}

@@ -3,8 +3,8 @@ import '../styles/header.css'
 function Header() {
     return (
 
-        <header className="header">
-            <div className="container header__inner">
+        <header className="header container">
+            <div className="header__inner">
                 <div className="header__logo">Yeahub</div>
 
                 <nav className="header__nav">

@@ -9,7 +9,7 @@ type Props = {
 function ExpertCard({ expert }: Props) {
 
     return (
-        <div className="expert-card">
+        <div className="expert-card container">
             <img
                 src={expert.avatar}
                 alt="Денис"

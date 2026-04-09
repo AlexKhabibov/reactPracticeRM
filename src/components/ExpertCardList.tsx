@@ -8,7 +8,7 @@ type Props = {
 
 function ExpertCardList({ experts }: Props) {
     return (
-        <div className="expert-grid">
+        <div className="expert-grid container">
             {experts.map((expert) => (
                 <ExpertCard key={expert.id} expert={expert} />
             ))}

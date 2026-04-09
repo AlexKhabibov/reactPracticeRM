@@ -1,5 +1,6 @@
 import type { TgChannelsType } from "../api/data";
 import TelegramChannelCard from "./TelegramChannelCard";
+import '../styles/tgCardList.css'
 
 type Props = {
     channels: TgChannelsType[];
@@ -7,7 +8,7 @@ type Props = {
 
 function TelegramChannelCardList({ channels }: Props) {
     return (
-        <div className="telegram-grid">
+        <div className="telegram-grid container">
             {channels.map((channel) => (
                 <TelegramChannelCard key={channel.id} channel={channel} />
             ))}

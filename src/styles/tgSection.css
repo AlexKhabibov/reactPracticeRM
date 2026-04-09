@@ -1,0 +1,19 @@
+.tg-section {
+    margin-top: 48px;
+}
+
+.tg-section__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tg-section__description {
+    margin-top: 8px;
+
+    max-width: 600px;
+
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}

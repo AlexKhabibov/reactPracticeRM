@@ -6,17 +6,16 @@
     border-radius: 12px;
 
     background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
     border: 1px solid transparent;
 
     transition: 0.2s;
 }
 
-/* hover как в макете */
 .expert-card:hover {
     border-color: #7b61ff;
 }
 
-/* аватар */
 .expert-card__avatar {
     width: 48px;
     height: 48px;
@@ -24,14 +23,12 @@
     object-fit: cover;
 }
 
-/* правая часть */
 .expert-card__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-/* имя + роль */
 .expert-card__header {
     display: flex;
     flex-direction: column;
@@ -49,21 +46,18 @@
     color: #666;
 }
 
-/* описание */
 .expert-card__description {
     margin: 0;
     font-size: 14px;
     color: #444;
 }
 
-/* иконки */
 .expert-card__socials {
     display: flex;
     gap: 8px;
     margin-top: 4px;
 }
 
-/* кружки */
 .dot {
     width: 8px;
     height: 8px;

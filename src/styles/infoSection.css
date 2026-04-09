@@ -1,0 +1,30 @@
+.info-banner {
+    margin: 48px auto;
+}
+
+.info-banner__card {
+    border-radius: 12px;
+    padding: 20px 24px;
+
+    background: linear-gradient(90deg, #6a0bff, #8f3bff);
+}
+
+.info-banner__content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.info-banner__icon {
+    font-size: 28px;
+}
+
+.info-banner__text {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.info-banner__text strong {
+    font-weight: 700;
+}

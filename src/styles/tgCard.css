@@ -1,0 +1,73 @@
+.tg-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+    transition: 0.2s;
+    width: 598px;
+    height: 106px;
+}
+
+.tg-card:hover {
+    border-color: #7b61ff;
+}
+
+.tg-card__header {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.tg-card__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.tg-card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tg-card__title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tg-card__description {
+    margin: 0;
+
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.tg-card__button {
+    align-self: center;
+
+    padding: 6px 12px;
+    border-radius: 8px;
+
+    border: 1px solid #7b61ff;
+    background: transparent;
+
+    font-size: 13px;
+    color: #7b61ff;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tg-card__button:hover {
+    background: #7b61ff;
+    color: #fff;
+}
