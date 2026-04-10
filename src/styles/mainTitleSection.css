@@ -28,3 +28,31 @@
     color: #666;
     line-height: 1.5;
 }
+
+
+
+
+
+@media (max-width: 992px) {
+    .main-title {
+        padding: 24px;
+    }
+
+    .main-title__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-title {
+        padding: 20px;
+    }
+
+    .main-title__title {
+        font-size: 22px;
+    }
+
+    .main-title__subtitle {
+        font-size: 14px;
+    }
+}

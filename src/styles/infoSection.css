@@ -7,7 +7,8 @@
     padding: 20px 24px;
     padding-bottom: 48px;
     padding-top: 49px;
-    height: 125px;
+    /* height: 125px; */
+    height: auto;
     background: linear-gradient(90deg, #6a0bff, #8f3bff);
 }
 
@@ -34,4 +35,18 @@
 
 .info-banner__text strong {
     font-weight: 700;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .info-banner__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-banner__text {
+        font-size: 18px;
+    }
 }
